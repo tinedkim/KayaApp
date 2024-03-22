@@ -5,7 +5,7 @@ import ProfileSection from "./ui/profileSection/ProfileSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-row items-center bg-white">
+    <main className="flex min-h-full flex-row items-center bg-white columns-3">
       <NavigationBar />
       <Dashboard />
       <ProfileSection />

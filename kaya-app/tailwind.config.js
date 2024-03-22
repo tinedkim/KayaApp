@@ -7,8 +7,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Manrope', 'sans-serif'],
-      monospace: ['Inconsolata', 'monospace']
+      manrope: ['Manrope', 'sans-serif'],
+      inconsolata: ['Inconsolata', 'monospace']
     },
     colors: {
       black: '#000000',
@@ -27,6 +27,9 @@ module.exports = {
 
     },
     extend: {
+      backgroundImage: (theme) => ({
+        'gradient-primary': "radial-gradient(circle, #E5A2A5 0%, #A3B4F2 100%)"
+      }),
       
     },
   },

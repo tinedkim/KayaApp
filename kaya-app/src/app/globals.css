@@ -31,3 +31,26 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: Manrope;
+    font-weight: 400;
+    src: url(../../public/fonts/manrope/Manrope-Regular.ttf);
+  }
+  @font-face {
+    font-family: Manrope;
+    font-weight: 600;
+    src: url(../../public/fonts/manrope/Manrope-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Manrope;
+    font-weight: 700;
+    src: url(/fonts/manrope/Manrope-Bold.ttf);
+  }
+  @font-face {
+    font-family: Inconsolata;
+    font-weight: 500;
+    src: url(/fonts/inconsolata/Inconsolata-Medium.ttf);
+  }
+}
