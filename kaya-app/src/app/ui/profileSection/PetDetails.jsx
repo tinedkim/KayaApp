@@ -5,7 +5,7 @@ const PetDetails = () => {
 
     return (
         <div className="text-black h-32 w-80 rounded-3xl border-2 border-gray-20 p-5">
-            <h1 className="font-manrope font-bold text-3xl">{pet.pet_name}</h1>
+            <h1 className="font-manrope font-semibold text-3xl">{pet.pet_name}</h1>
             <div className="flex justify-between mt-2">
                 {Object.keys(pet.health_info).map((field) => {
                     return (

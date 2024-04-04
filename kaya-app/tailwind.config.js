@@ -14,23 +14,22 @@ module.exports = {
       black: '#000000',
       white: '#FFFFFF',
       gray: {
-        20: '#F4F4F7',
-        40: '#F5F7FB',
+        20: '#F5F7FB',
+        40: '#F4F4F7',
         70: '#94A3AE',
         80: '#6F6F7D',
         90: '#0A0B22'
       },
       blue: "#607FF0",
-      gradient: {
-        "main": "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)"
-      }
 
     },
     extend: {
       backgroundImage: (theme) => ({
-        'gradient-primary': "radial-gradient(circle, #E5A2A5 0%, #A3B4F2 100%)"
+        'gradient-primary': "linear-gradient(180deg, rgba(229, 162, 165, 1) 0%, rgba(163, 180, 242, 1) 70%)"
       }),
-      
+      boxShadow: {
+        'card': '2px 2px 10px rgba(0, 0, 0, 0.06)',
+      }
     },
   },
   plugins: [],

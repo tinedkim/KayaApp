@@ -1,9 +1,9 @@
 import React from "react";
 
-const Card = ({children}) => {
+const Card = ({width, height, children}) => {
 
     return (
-        <div className="w-[816px] h-96 bg-gray-40 rounded-3xl p-8">
+        <div className="bg-gray-40 rounded-3xl p-8" style={{ width, height }}>
             {children}
         </div>
     )

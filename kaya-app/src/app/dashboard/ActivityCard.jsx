@@ -1,11 +1,10 @@
 import React from "react";
-import Card from "../Common/Card";
+import Card from "../ui/Common/Card";
 
 const ActivityCard = () => {
 
     return (
-        <Card >
-            <h1 className="text-black font-manrope text-2xl font-bold">Activity</h1>
+        <Card width="600px" height="304px">
             <div>
 
             </div>
